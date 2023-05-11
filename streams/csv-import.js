@@ -8,7 +8,7 @@ const stream = fs.createReadStream(csvPath);
 const csvParse = parse({
   delimiter: ",",
   skipEmptyLines: true,
-  fromLine: 2, // skip the header line
+  fromLine: 2, 
 });
 
 async function run() {
